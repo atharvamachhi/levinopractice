@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://kit.fontawesome.com/c190a74e64.js" crossorigin="anonymous"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether.min.css"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+
+    <div class="container-xl">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+
+            <a class="navbar-brand" href="#">Levino</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mr-auto">
+              
+                    <li class="nav-item">
+              
+                        <a class="nav-link" href="index.html">Home</a>
+              
+                    </li>
+              
+                    <li class="nav-item">
+              
+                        <a class="nav-link" href="about.html">About</a>
+              
+                    </li>
+              
+                    <li class="nav-item">
+              
+                        <a class="nav-link" href="restaurant.html">Restaurant</a>
+              
+                    </li>
+              
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+
+                        <a href="#" class="nav-link">
+                            
+                                <i class="fa-solid fa-phone"></i> &nbsp;+91 9876543210
+                            
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#" class="nav-link">
+                            <button class="border-0 background_brown button_border_navbar pl-4 pr-4 text-white">Locate Us &nbsp;<i class="fa-regular fa-envelope"></i>
+                            </button>
+                        </a>
+
+                    </li>
+
+                </ul>
+            
+            </div>
+  
+        </nav>
+
+        <!-- header -->
+        <div class="background_pink_linear_gradient">
+
+            <div class="container pt-5 p-4">
+
+                <div class="row mb-5 p-1 bg-white contact_border_radius">
+
+                    <div class="col-lg-5 col-sm-5 col-md-5 p-0 rounded-circle">
+
+                        <div class="bg-white p-md-5 p-3">
+        
+                            <h3>Get in touch</h3>
+                            <p>Our friendly team would love to hear from you.</p>
+
+                            <div class="row mt-5">
+
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb-2">
+
+                                    <label for="name">First Name</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name">
+
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb-2">
+
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" name="lname" class="form-control" placeholder="Last Name">
+
+                                </div>
+
+                            </div>
+
+                            <label for="email">Your Email</label>
+                            <input type="email" name="email" class="form-control mb-2" placeholder="Your Email">
+
+                            <label for="number">Phone number</label>
+                            <input type="number" name="Phone" class="form-control mb-2" placeholder="Phone Number">
+
+                            <label for="message">Message</label>
+                            <textarea name="message" class="form-control mb-2" cols="30" rows="3"></textarea>
+
+                            <div class="form-check mb-2">
+                            
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    You agree to our friendly privacy policy.
+                                </label>
+                            
+                            </div>
+
+                            <button class="mt-5 form-control text-white background_brown border-0">Send message</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-7 col-md-7 col-sm-7 p-0">
+
+                        <div class="map_responsive" id="mobile_header_map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.374405935398!2d72.8368672752409!3d20.44980988105859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0dbcaa1c76501%3A0x57268d4f05ec2683!2sHotel%20Levino%20%7C%20Rooms%20%7C%20Restaurant%20%7C%20Swimming%20Pool%20%7C%20Banquet%20Hall!5e0!3m2!1sen!2sin!4v1701685326698!5m2!1sen!2sin" class="border-0 map_responsive" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Frequently asked questions -->
+        <div class="container">
+
+            <div class="text-center pt-2 mb-5">
+
+                <h3>Frequently asked questions</h3>
+                <p class="pt-2">Everything you need to know about the Hotel and Restaurant.</p>
+
+            </div>
+
+            <div>
+
+                <div id="accordion" class="accordion">
+
+                    <div class="card border-0">
+        
+                        <!-- 1 -->
+                        <div class="card-header bg-white border-0 collapsed" data-toggle="collapse" href="#collapseOne">
+        
+                            <a class="card-title border-0 font-weight-bold">
+        
+                                What's the difference between a Double room and a Twin room?
+                                
+                            </a>
+                            
+                        </div>
+                        <div id="collapseOne" class="card-body border-0 mb-0 show" data-parent="#accordion" >
+        
+                            <p class="color_grey">A double room has one double bed. A twin room has two single beds.</p>
+        
+                        </div>
+                        <hr>
+
+                        <!-- 2 -->
+                        <div class="card-header border-0 bg-white collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        
+                            <a class="card-title border-0 font-weight-bold">
+                              
+                                We have two small children; can we get extra beds in the room?
+                                
+                            </a>
+        
+                        </div>
+                        <div id="collapseTwo" class="card-body border-0 collapse" data-parent="#accordion" >
+
+                            <p class="color_grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        </div>
+                        <hr>
+                         
+                        <!-- 3 -->
+                        <div class="card-header border-0 bg-white collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsethree">
+        
+                            <a class="card-title border-0 font-weight-bold">
+                              
+                                What is your cancellation policy?
+                                
+                            </a>
+        
+                        </div>
+                        <div id="collapsethree" class="card-body border-0 collapse" data-parent="#accordion" >
+
+                            <p class="color_grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        </div>
+                        <hr>
+                        
+                        <!-- 4 -->
+                        <div class="card-header border-0 bg-white collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+        
+                            <a class="card-title border-0 font-weight-bold">
+                              
+                                Is breakfast included in the price?
+                                
+                            </a>
+        
+                        </div>
+                        <div id="collapsefour" class="card-body border-0 collapse" data-parent="#accordion" >
+
+                            <p class="color_grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        </div>
+                        <hr>
+
+                        <!-- 5 -->
+                        <div class="card-header border-0 bg-white collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+        
+                            <a class="card-title border-0 font-weight-bold">
+                              
+                                Can I book a hotel room by telephone or email? 
+                                
+                            </a>
+        
+                        </div>
+                        <div id="collapsefive" class="card-body border-0 collapse" data-parent="#accordion" >
+
+                            <p class="color_grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        </div>
+                        <hr>
+
+                        <!-- 6 -->
+                        <div class="card-header bg-white border-0 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsesix">
+        
+                            <a class="card-title border-0 font-weight-bold">
+        
+                                I will be arriving late in the evening at the hotel. Can I still check-in?
+        
+                            </a>
+        
+                        </div>
+                        <div id="collapsesix" class="collapse" data-parent="#accordion" >
+        
+                            <div class="card-body border-0 color_grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        
+                        </div>
+                        <hr>
+        
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div class="background_light_pink">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-3 col-lg-3 col-md-3 mt-md-5 mt-3">
+
+                        <h2>Levino</h2>
+                        <p class="color_grey pt-md-2 pr-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="pt-3">
+
+                            <a href="https://twitter.com/" class="btn rounded_border hover_img" target="_blank">
+                                
+                                <i class="fa-brands fa-twitter color_light_black"></i>
+
+                            </a>
+                            
+                            <a href="https://www.facebook.com/" class="btn rounded_border m-1 hover_img" target="_blank">
+
+                                <i class="fa-brands fa-facebook-f color_light_black"></i>
+
+                            </a>
+
+                            <a href="https://www.instagram.com/" class="btn rounded_border m-1 hover_img" target="_blank">
+                                
+                                <i class="fa-brands fa-instagram color_light_black"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-3 col-lg-3 col-md-3 mt-md-5 mt-3">
+
+                        <h4>Levino</h4>
+                        
+                        <div class="color_grey pt-md-3">
+
+                            <a href="about.html" class="color_grey text-decoration-none hover_color">
+                                <p>About</p>
+                            </a>
+
+                            <a href="#" class="color_grey text-decoration-none hover_color">
+                                <p>Rooms</p>
+                            </a>
+
+                            <a href="restaurant.html" class="color_grey text-decoration-none hover_color">
+                                <p>Restaurant</p>
+                            </a>
+
+                            <a href="contact.html" class="color_grey text-decoration-none hover_color">
+                                <p>Contact</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-3 col-lg-3 col-md-3 mt-md-5 mt-3">
+
+                        <h4>Event</h4>
+
+                        <div class="color_grey pt-md-3">
+
+                            <a href="#" class="color_grey text-decoration-none hover_color">
+                                <p>Birthday Party</p>
+                            </a>
+
+                            <a href="#" class="color_grey text-decoration-none hover_color">
+                                <p>Business event</p>
+                            </a>
+
+                            <a href="#" class="color_grey text-decoration-none hover_color">
+                                <p>Wedding</p>
+                            </a>
+
+                            <a href="#" class="color_grey text-decoration-none hover_color">
+                                <p>Family Party</p>
+                            </a>
+                        
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-sm-3 col-lg-3 col-md-3 mt-md-5 mt-3">
+
+                        <h4>Contact</h4>
+
+                        <div class="color_grey pt-md-3">
+
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>levino@gmail.com</p>
+                            <p>+91 987654321</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <p class="text-center">© Copyright 2022, All Rights Reserved by LEVINO</p>
+                <br>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

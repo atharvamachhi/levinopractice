@@ -1,0 +1,282 @@
+.color_light_pink
+{
+    color: #F9F1E6;
+}
+
+.background_light_pink
+{
+    background-color: #F9F1E6;
+}
+
+.color_brown
+{
+    color: #7C6850;
+}
+
+.background_brown
+{
+    background-color: #7C6850;
+}
+
+.color_grey
+{
+    color: #52525B;
+}
+
+.rounded_border
+{
+    border-radius: 50%;
+    border-color: #D4D4D8;
+}
+
+.hover_img:hover
+{
+    background-color: #F9F1E6;
+    border-color: #D4D4D8;
+}
+
+.color_light_black
+{
+    color: #292826;
+}
+
+.background_light_black
+{
+    background-color: #292826;
+}
+
+.button_border_navbar
+{
+    border-radius: 10px;
+}
+
+.background_pink_linear_gradient
+{
+    background: linear-gradient(178.81deg, #F9F1E6 14.53%, rgba(249, 241, 230, 0) 56.38%, #FFFFFF 91.08%);
+}
+
+.background_white
+{
+    background-color: white;
+}
+
+.color_white
+{
+    color: white;
+}
+
+.font_10
+{
+    font-size: 10vw;
+    color:rgba(124, 104, 80, 0.07);
+    font-weight: 100;
+    height: 20vw;
+}
+
+.font_title
+{
+    font-weight: 350;
+}
+
+.header_right
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.box_shadow
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.border_radius
+{
+    border-radius: 10px;
+}
+
+.contact_border_radius
+{
+    border-radius: 12px;
+}
+
+.top_0
+{
+    top: 0;
+}
+
+.hover_color:hover
+{
+    color: #292826;
+}
+
+
+.gradient_linear
+{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+
+.map_responsive
+{
+    width: 100%;
+    height: 100%;
+}
+
+.accordion .card-header:after
+{
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right;
+}
+
+.accordion .card-header.collapsed:after
+{
+    content: "\f067"; 
+}
+
+.img_gradient_linear
+{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.bottom-right 
+{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    border-top: 1px solid #F9F9F9;
+    border-left: 1px solid #F9F9F9;
+}
+
+.bottom-left
+{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    border-top: 1px solid #F9F9F9;
+    border-right: 1px solid #F9F9F9;
+}
+
+.top-right 
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    border-bottom: 1px solid #F9F9F9;
+    border-left: 1px solid #F9F9F9;   
+}
+
+.top-left 
+{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    border-bottom: 1px solid #F9F9F9;
+    border-right: 1px solid #F9F9F9;
+}
+
+.img_style_text_wedding
+{
+    bottom: 0; 
+    width: 50%; 
+    right: 0;
+    border-top-left-radius: 20px;
+}
+
+.img_style_text_meeting
+{
+    bottom: 0;
+    width: 50%;
+    left: 0;
+    border-top-right-radius: 20px;
+}
+
+.img_style_text_dinner
+{
+    top: 0;
+    width: 50%;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+
+.img_style_text_party
+{
+    top: 0;
+    width: 50%;
+    left: 0;
+    border-bottom-right-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    #mobile_image
+    {
+        height: 30vh;
+    }
+
+    #mobile_header_image
+    {
+        height: 30vh;
+    }
+
+    #mobile_header_map
+    {
+        height: 50vh;
+    }
+
+    #mobile_text_size
+    {
+        font-size: 3vw;
+    }
+
+    #mobile_center
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #F9F9F9;
+        border-radius: 12px;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 412px)
+{
+    #mobile_button_width
+    {
+        width: 100%;
+        height: 40px;
+    }
+
+    #mobile_center
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #F9F9F9;
+        border-radius: 12px;
+        width: 60%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 540px)
+{
+    #mobile_image
+    {
+        width: 100%;
+    }
+}
